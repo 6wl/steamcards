@@ -11,7 +11,7 @@ class Scraper
 
   def initialize()
     @cards_hash = Hash.new()
-    @db = CouchRest.database("http://127.0.0.1:5984/steam")
+    @db = CouchRest.database!("http://127.0.0.1:5984/steam")
   end
 
   def scrape()
