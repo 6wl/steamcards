@@ -14,7 +14,6 @@ class Scraper
     @game_id = game_id
     @cards_hash = Hash.new()
     @db = CouchRest.database("http://127.0.0.1:5984/steam")
-    @doc = @db.get("games")
   end
 
   def scrape()
@@ -54,6 +53,7 @@ class Scraper
   
   def write()
     key = @cards_hash.keys[0]
+    @doc = @db.get("games")
     @doc[key] = @cards_hash[key]
     @db.save_doc(@doc)
   end
