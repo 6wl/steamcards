@@ -64,14 +64,16 @@ conn = Bunny.new()
 conn.start()
 
 channel = conn.create_channel()
+channel.prefetch(1)
 
 queue = channel.queue("card_scraper")
 
-queue.subscribe(:block => true, :ack => true) do |devlivery_info, properties, payload|
+queue.subscribe(:ack => true, :block => true) do |delivery_info, properties, payload|
   payload = JSON.parse(payload)
   puts "[+] Message to scrap cards for game_id #{payload["game_id"]} for steam_id #{payload["steam_id"]}"
   s = Scraper.new(payload["steam_id"], payload["game_id"])
   s.scrape
   s.write
   puts "[+] Finished scraping and write"
+  channel.ack(delivery_info.delivery_tag)
 end

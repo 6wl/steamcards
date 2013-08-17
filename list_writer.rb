@@ -144,7 +144,7 @@ class Trader
 
 end
 
-t = Trader.new("ql6wlld", "", ["System Shock 2"], ["System Shock 2"])
+t = Trader.new("ql6wlld", "", ["System Shock 2"], ["Super Meat Boy", "System Shock 2"])
 t.build_trade
 puts t.output
 t.total_ownage

@@ -6,21 +6,23 @@ Eg 1:2, 2:3, 3:4 etc
 
 Have for trade:
 
-Alan Wake 3/8:
- - (1) Barry
+Alan Wake 2/8:
  - (2) Pat
  - (1) Sarah
 
-Awesomenauts 6/14:
+Awesomenauts 9/14:
  - (1) Ayla
  - (1) Clunk
- - (1) Coco Nebulon
+ - (1) Raelynn
  - (1) Genji the Pollen Prophet
+ - (2) Leon Chameleon
  - (1) Skølldir
+ - (1) Vinnie & Spike
  - (2) Voltar the Omniscient
+ - (1) Yuri
 
 Bastion 1/5:
- - (1) The Arsenal
+ - (1) The Shrine
 
 Beat Hazard 3/7:
  - (1) Stalker
@@ -31,6 +33,9 @@ BIT.TRIP RUNNER 3/6:
  - (1) CommanderVideo
  - (1) CommandgirlVideo
  - (1) Junior Melchkin
+
+Borderlands 2 1/6:
+ - (1) ZERO
 
 Brütal Legend 10/15:
  - (1) Razorfire Boar
@@ -44,14 +49,29 @@ Brütal Legend 10/15:
  - (1) Pain Lifter
  - (1) Eddie's Dad
 
-Costume Quest 2/9:
- - (1) Parking Lot
+Costume Quest 5/9:
+ - (2) Fall Valley Carnival
+ - (2) Dorsilla
+ - (1) Lady Liberty
+ - (2) Parking Lot
  - (1) Wren and Reynold
 
-Dead Island 4/9:
+Counter-Strike: Global Offensive 4/5:
+ - (1) Anarchist
+ - (1) FBI
+ - (1) IDF
+ - (1) SWAT
+
+Day of Defeat: Source 2/6:
+ - (1) Allied Rocket
+ - (1) Allied Sniper
+
+Dead Island 6/9:
  - (1) Logan
  - (1) Banoi Beach
  - (1) Royal Palm Resort
+ - (1) Pool
+ - (1) Xian Mei
  - (2) Zombie
 
 Defense Grid: The Awakening 3/9:
@@ -62,18 +82,15 @@ Defense Grid: The Awakening 3/9:
 Don't Starve 1/5:
  - (1) Wendy
 
+Dota 2 1/8:
+ - (1) Razor
+
 Droid Assault 2/5:
  - (2) GX series Heavy Guardian
  - (1) M series Military
 
-Frozen Synapse 7/8:
- - (1) Markov Geist
- - (2) Red City
- - (2) The Glass Tower
- - (2) The Confrontation
- - (3) The Map
- - (2) Red Tower
- - (1) Ruined City
+Frozen Synapse 1/8:
+ - (1) The Confrontation
 
 FTL: Faster Than Light 3/8:
  - (1) Kestrel Cruiser
@@ -87,7 +104,7 @@ Garry's Mod 4/9:
  - (2) Trouble In Terrorist Town
 
 Gratuitous Space Battles 7/10:
- - (2) Federation
+ - (3) Federation
  - (2) Empire
  - (1) Alliance
  - (2) Rebels
@@ -95,29 +112,45 @@ Gratuitous Space Battles 7/10:
  - (1) Parasites
  - (1) Nomads
 
-Hotline Miami 3/6:
- - (1) Biker
+Guns of Icarus Online 1/9:
+ - (1) Airship: The Galleon
+
+Half-Life 2 2/8:
+ - (1) Alyx Vance
+ - (1) Bring the fight to them
+
+Hitman: Absolution 4/9:
+ - (1) Chinatown
+ - (1) Clean-up
+ - (1) Skull Splitter
+ - (1) The Scarecrow
+
+Hotline Miami 2/6:
  - (1) Burn
  - (1) Owl
 
-Killing Floor 5/10:
+Indie Game: The Movie 3/7:
+ - (1) Danielle
+ - (2) Tommy
+ - (1) Jon
+
+Killing Floor 2/10:
  - (1) Crawler
  - (1) Stalker
- - (1) Siren
- - (1) Scrake
- - (1) Fleshpound
 
 Left 4 Dead 2 6/8:
  - (1) Boomer
- - (1) Charger
+ - (2) Charger
  - (1) Hunter
  - (1) Jockey
- - (1) Spitter
+ - (2) Spitter
  - (1) Tank
 
-Mark of the Ninja 2/9:
+Magicka 1/8:
+ - (1) Fire Element
+
+Mark of the Ninja 1/9:
  - (2) We've Always Been Together
- - (1) Stalkers
 
 McPixel 6/13:
  - (1) McPixel
@@ -132,8 +165,7 @@ Natural Selection 2 3/8:
  - (2) The Lerk
  - (1) The Onos
 
-Offspring Fling! 4/9:
- - (1) Lost Offspring
+Offspring Fling! 3/9:
  - (1) Acid Spitter
  - (2) Spiky Cuddler
  - (1) Mysterious Ninja
@@ -162,7 +194,7 @@ ORION: Dino Horde 4/12:
 Psychonauts 4/9:
  - (3) Raz
  - (1) Figments
- - (3) Milk Man
+ - (2) Milk Man
  - (1) Sheegor
 
 Revenge of the Titans 3/5:
@@ -170,10 +202,12 @@ Revenge of the Titans 3/5:
  - (1) Megatitan
  - (1) Hoff Meister
 
-Saints Row: The Third 4/7:
- - (1) The Herald of the Walking Apocalypse
- - (1) Johnny Gat
- - (1) Oleg Kirrlov the Brute
+Rising Storm/Red Orchestra 2 Multiplayer 3/10:
+ - (2) 6th Army
+ - (1) Elevator
+ - (2) Spartanovka
+
+Saints Row: The Third 1/7:
  - (1) The Boss of the Saints
 
 Serious Sam 3: BFE 3/8:
@@ -181,12 +215,14 @@ Serious Sam 3: BFE 3/8:
  - (2) Sandwhale
  - (1) Witch-Bride of Achriman
 
-Sid Meier's Civilization V 3/8:
+Sid Meier's Civilization V 4/8:
  - (1) Catherine
  - (1) Economic
- - (2) Washington
+ - (1) Military
+ - (1) Washington
 
-Space Pirates and Zombies 2/6:
+Space Pirates and Zombies 3/6:
+ - (1) The Gate Beam
  - (2) Battleship Encounter
  - (1) Big Blue
 
@@ -195,16 +231,6 @@ Stacking 3/9:
  - (3) The Baron
  - (1) The Zeppelin of Consequence
 
-Steam Summer Getaway 4/10:
- - (1) Football Manager 203
- - (1) Kerbal Space Program
- - (1) Prison Architect
- - (1) Torchlight II
-
-Super Meat Boy 2/5:
- - (1) Super Meat Boy!
- - (2) Epic Meat Man!
-
 
 Want from trade:
 
@@ -212,5 +238,5 @@ System Shock 2:
  - SHODAN
  - Confrontation
  - The Cyborg Midwives
-44
-203
+52
+223
