@@ -12,18 +12,20 @@ class Scraper
   def initialize(steam_id, game_id)
     @steam_id = steam_id
     @game_id = game_id
-    @cards_hash = Hash.new()
+    @game = Hash.new()
     @db = CouchRest.database("http://127.0.0.1:5984/steam")
   end
 
   def scrape()
-    url = "http://steamcommunity.com/id/#{@steam_id}/gamecards/#{game_id}/"
+    cards = Hash.new()
+    cards = {"cards" => []}
+    url = "http://steamcommunity.com/id/#{@steam_id}/gamecards/#{@game_id}/"
 
     html = HTTParty.get(url).body
     doc = Nokogiri::HTML(html)
 
     current_game = doc.css('.profile_small_header_location')[1].text
-    @cards_hash[current_game] = []
+    @game = {"game_name" => current_game}
 
     badges = doc.css('.badge_card_set_card')
     badges.each do |badge|
@@ -46,16 +48,22 @@ class Scraper
       badge_total_index = badge_index.split(" of ")[1].to_i
       badge_current_series = badge_series.split(" ")[1].to_i
 
-      @cards_hash[current_game][badge_current_index - 1] = {"badge name" => badge_text, "quantity" => badge_quantity}
+      #@game.merge!("cards")[badge_current_index - 1] = {"card_name" => badge_text, "owned" => badge_quantity}
+      cards["cards"][badge_current_index - 1] = {"card_name" => badge_text, "owned" => badge_quantity}
     end
-
+    @game.merge!(cards)
   end
   
+  def merge_in_new(doc, game)
+    doc["game_name"] = game["game_name"]
+    doc["cards"] = game["cards"]
+    return doc
+  end
+
   def write()
-    key = @cards_hash.keys[0]
-    @doc = @db.get("games")
-    @doc[key] = @cards_hash[key]
-    @db.save_doc(@doc)
+    doc = @db.view("games/game_by_id", {"key" => @game_id})["rows"][0]["value"]
+    merged_doc = self.merge_in_new(doc, @game)
+    @db.save_doc(merged_doc)
   end
 
 end

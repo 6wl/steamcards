@@ -1,0 +1,6 @@
+---
+  server: localhost
+  port: 5984
+  database: steam
+  user: none
+  password: none
