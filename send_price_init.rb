@@ -15,7 +15,6 @@ card_names = Array.new()
 
 db = CouchRest.database("http://127.0.0.1:5984/steam")
 db.view("cards/card_name_by_game_name", params = {})["rows"].each do |row|
-#db.view("cards/card_name_by_game_name", params = {"key"=>"Gratuitous Space Battles"})["rows"].each do |row|
   payload = Hash.new()
   payload["game_name"] = row["key"]
   payload["card_name"] = row["value"]
