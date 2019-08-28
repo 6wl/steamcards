@@ -1,4 +1,6 @@
-steamcards
-==========
+# steamcards
 
 Scraper for steamcards and prices on the market place
+
+- CouchDB
+- RabbitMQ
